@@ -4,6 +4,14 @@
       {
         "label": "Toggle save-tabs-with-branch",
         "command": "save-tabs-with-branch:toggle"
+      },
+      {
+        "label": "Get opened tabs",
+        "command": "save-tabs-with-branch:get-opened-file"
+      },
+      {
+        "label": "Get current branch name",
+        "command": "save-tabs-with-branch:get-branch-name"
       }
     ]
   },
@@ -17,6 +25,17 @@
             {
               "label": "Toggle",
               "command": "save-tabs-with-branch:toggle"
+            },
+            {
+              "type": "separator"
+            },
+            {
+              "label": "Get opened tabs",
+              "command": "save-tabs-with-branch:get-opened-file"
+            },
+            {
+              "label": "Get current branch name",
+              "command": "save-tabs-with-branch:get-branch-name"
             }
           ]
         }

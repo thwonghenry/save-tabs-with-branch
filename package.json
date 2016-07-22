@@ -9,6 +9,13 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
+  "consumedServices": {
+    "linter-plus-self": {
+      "versions": {
+        "0.1.0": "consumeLinter"
+      }
+    }
+  },
   "dependencies": {},
   "devDependencies": {
     "eslint": "^3.0.1",

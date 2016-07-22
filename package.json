@@ -4,9 +4,6 @@
   "version": "0.0.0",
   "description": "A short description of your package",
   "keywords": [],
-  "activationCommands": {
-    "atom-workspace": "save-tabs-with-branch:toggle"
-  },
   "repository": "https://github.com/thwonghenry/save-tabs-with-branch",
   "license": "MIT",
   "engines": {
